@@ -14,9 +14,6 @@
             ],
             "env": {
                 "NODE_ENV": "development",
-                // "NODE_ENV": "prod",
-                // "NODE_ENV": "integration",
-                "ENABLE_POSTGRES_LOGS": "true"
             },
             "args": [
                 "${workspaceFolder}/src/server.ts"
